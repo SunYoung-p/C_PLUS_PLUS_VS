@@ -1,0 +1,1 @@
+double SqurtFunc(double x);
