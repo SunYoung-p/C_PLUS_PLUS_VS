@@ -1,14 +1,24 @@
 #include <iostream>
-#include "TestHeader.h"
+
+using std::cout;
+using std::cin;
 
 int main()
 {
-	std::cout << "Hello World ! " << std::endl;
-	std::cout << "This is new environment ! " << std::endl;
-	std::cout << "5 suqrt is " << SqurtFunc(5) << std::endl
-		<< "19 squrt is " << SqurtFunc(19) << std::endl;
+	int n = 0;
 
-	getchar();
+	cout << "숫자를 입력하세요 : ";
+	cin >> n;
+
+	for (int i = n; i <= n+9; i++)
+	{
+		for (int j = 1; j <= 9; j++)
+		{
+			cout << i << " * " << j << " = " << i*j << std::endl;
+		}
+
+		cout << std::endl;
+	}
 
 	return 0;
 }
