@@ -6,5 +6,7 @@ using std::cin;
 int main()
 {
 
+	getchar();
+	getchar();
 	return 0;
 }
