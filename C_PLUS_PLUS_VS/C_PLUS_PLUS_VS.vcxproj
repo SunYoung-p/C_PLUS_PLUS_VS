@@ -116,6 +116,7 @@
     <ClCompile Include="BANK_01.cpp" />
     <ClCompile Include="Game01.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Malloc.cpp" />
     <ClCompile Include="Namespace.cpp" />
     <ClCompile Include="source01.cpp" />
   </ItemGroup>

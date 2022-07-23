@@ -39,6 +39,9 @@
     <ClCompile Include="BANK_01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Malloc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">

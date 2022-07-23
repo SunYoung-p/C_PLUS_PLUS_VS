@@ -11,6 +11,8 @@ typedef struct AccountInfo
 extern Bank BANK_INFO[10];
 extern int BANK_CNT;
 
+int RunBankManager();
+
 void PrintMenu();
 void PrintAccount();
 Bank MakeAccount();
