@@ -76,3 +76,34 @@ int RunDeposit(Bank n)
 
 	return -1;
 }
+
+
+Bank GetWithDrawInfo()
+{
+	Bank n;
+
+	cout << "[출    금]" << endl;
+	cout << "계좌ID: ";
+	cin >> n.id;
+
+	cout << "출금액: ";
+	cin >> n.money;
+
+	return n;
+}
+
+
+int RunWithDraw(Bank n)
+{
+	for (int i = 0; i < BANK_CNT; i++)
+	{
+		if (BANK_INFO[i].id == n.id && BANK_INFO[i].money >= n.money)
+		{
+			BANK_INFO[i].money -= n.money;
+
+			return 1;
+		}
+	}
+
+	return -1;
+}

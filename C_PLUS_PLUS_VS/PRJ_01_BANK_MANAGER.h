@@ -16,6 +16,8 @@ void PrintAccount();
 Bank MakeAccount();
 Bank GetDepositInfo();
 int RunDeposit(Bank);
+int RunWithDraw(Bank);
+Bank GetWithDrawInfo();
 
 #endif // !BACN_HEADER
 

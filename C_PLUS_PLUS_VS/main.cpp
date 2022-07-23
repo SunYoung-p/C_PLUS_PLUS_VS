@@ -39,6 +39,12 @@ int main_bank()
 				cout << "입금완료" << endl;
 
 			break;
+		case 3:
+			if (RunWithDraw(GetWithDrawInfo()) == -1)
+				cout << "ID가 잘못되었거나, 잔액이 부족합니다. " << endl;
+			else
+				cout << "출금완료" << endl;
+			break;
 		case 4:
 			PrintAccount();
 			break;
