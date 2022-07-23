@@ -113,11 +113,14 @@
     <ClCompile Include="BackJun_01.cpp" />
     <ClCompile Include="BackJun_02.cpp" />
     <ClCompile Include="BackJun_03.cpp" />
+    <ClCompile Include="BANK_01.cpp" />
     <ClCompile Include="Game01.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Namespace.cpp" />
     <ClCompile Include="source01.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PRJ_01_BANK_MANAGER.h" />
     <ClInclude Include="TestHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
