@@ -114,6 +114,7 @@
     <ClCompile Include="BackJun_02.cpp" />
     <ClCompile Include="BackJun_03.cpp" />
     <ClCompile Include="BANK_01.cpp" />
+    <ClCompile Include="FinalProblem_C_01.cpp" />
     <ClCompile Include="Game01.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Malloc.cpp" />
