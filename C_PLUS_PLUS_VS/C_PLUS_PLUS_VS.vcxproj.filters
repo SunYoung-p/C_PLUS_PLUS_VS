@@ -27,49 +27,49 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BackJun_01.cpp">
+    <ClCompile Include="새 폴더\BackJun_01.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
-    <ClCompile Include="BackJun_02.cpp">
+    <ClCompile Include="BACKJUN\BackJun_03.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
-    <ClCompile Include="BackJun_03.cpp">
+    <ClCompile Include="BACKJUN\BackJun_04.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
-    <ClCompile Include="BackJun_04.cpp">
+    <ClCompile Include="BACKJUN\BackJun_05.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
-    <ClCompile Include="BackJun_05.cpp">
+    <ClCompile Include="BACKJUN\BackJun_02.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
-    <ClCompile Include="BANK_01.cpp">
+    <ClCompile Include="PROJECT\PhoneManager.cpp">
       <Filter>소스 파일\Project</Filter>
     </ClCompile>
-    <ClCompile Include="PhoneManager.cpp">
+    <ClCompile Include="PROJECT\BANK_01.cpp">
       <Filter>소스 파일\Project</Filter>
     </ClCompile>
-    <ClCompile Include="CPP_Header_Exam.cpp">
+    <ClCompile Include="BOOK_PART_01\RefVal_Exam_01.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="FinalProblem_C_01.cpp">
+    <ClCompile Include="BOOK_PART_01\RefVal_Exma_02.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="Game01.cpp">
+    <ClCompile Include="BOOK_PART_01\source01.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="Malloc.cpp">
+    <ClCompile Include="BOOK_PART_01\CPP_Header_Exam.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="Namespace.cpp">
+    <ClCompile Include="BOOK_PART_01\FinalProblem_C_01.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="RefVal_Exam_01.cpp">
+    <ClCompile Include="BOOK_PART_01\Game01.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="RefVal_Exma_02.cpp">
+    <ClCompile Include="BOOK_PART_01\Malloc.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="source01.cpp">
+    <ClCompile Include="BOOK_PART_01\Namespace.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
   </ItemGroup>

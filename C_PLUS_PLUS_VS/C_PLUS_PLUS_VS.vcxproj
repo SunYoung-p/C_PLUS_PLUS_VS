@@ -110,22 +110,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BackJun_01.cpp" />
-    <ClCompile Include="BackJun_02.cpp" />
-    <ClCompile Include="BackJun_03.cpp" />
-    <ClCompile Include="BackJun_04.cpp" />
-    <ClCompile Include="BackJun_05.cpp" />
-    <ClCompile Include="BANK_01.cpp" />
-    <ClCompile Include="CPP_Header_Exam.cpp" />
-    <ClCompile Include="FinalProblem_C_01.cpp" />
-    <ClCompile Include="Game01.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_02.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_03.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_04.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_05.cpp" />
+    <ClCompile Include="BOOK_PART_01\CPP_Header_Exam.cpp" />
+    <ClCompile Include="BOOK_PART_01\FinalProblem_C_01.cpp" />
+    <ClCompile Include="BOOK_PART_01\Game01.cpp" />
+    <ClCompile Include="BOOK_PART_01\Malloc.cpp" />
+    <ClCompile Include="BOOK_PART_01\Namespace.cpp" />
+    <ClCompile Include="BOOK_PART_01\RefVal_Exam_01.cpp" />
+    <ClCompile Include="BOOK_PART_01\RefVal_Exma_02.cpp" />
+    <ClCompile Include="BOOK_PART_01\source01.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Malloc.cpp" />
-    <ClCompile Include="Namespace.cpp" />
-    <ClCompile Include="PhoneManager.cpp" />
-    <ClCompile Include="RefVal_Exam_01.cpp" />
-    <ClCompile Include="RefVal_Exma_02.cpp" />
-    <ClCompile Include="source01.cpp" />
+    <ClCompile Include="PROJECT\BANK_01.cpp" />
+    <ClCompile Include="PROJECT\PhoneManager.cpp" />
+    <ClCompile Include="새 폴더\BackJun_01.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PRJ_01_BANK_MANAGER.h" />
