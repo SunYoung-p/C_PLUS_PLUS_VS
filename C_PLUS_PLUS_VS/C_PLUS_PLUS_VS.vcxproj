@@ -114,13 +114,17 @@
     <ClCompile Include="BackJun_02.cpp" />
     <ClCompile Include="BackJun_03.cpp" />
     <ClCompile Include="BackJun_04.cpp" />
+    <ClCompile Include="BackJun_05.cpp" />
     <ClCompile Include="BANK_01.cpp" />
+    <ClCompile Include="CPP_Header_Exam.cpp" />
     <ClCompile Include="FinalProblem_C_01.cpp" />
     <ClCompile Include="Game01.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Malloc.cpp" />
     <ClCompile Include="Namespace.cpp" />
     <ClCompile Include="PhoneManager.cpp" />
+    <ClCompile Include="RefVal_Exam_01.cpp" />
+    <ClCompile Include="RefVal_Exma_02.cpp" />
     <ClCompile Include="source01.cpp" />
   </ItemGroup>
   <ItemGroup>

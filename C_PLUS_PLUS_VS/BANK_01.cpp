@@ -19,27 +19,27 @@ int RunBankManager()
 
 		switch (n)
 		{
-		case 1:
+		case MAKE:
 			BANK_INFO[BANK_CNT] = MakeAccount();
 			BANK_CNT++;
 			break;
-		case 2:
+		case DEPOSIT:
 			if (RunDeposit(GetDepositInfo()) == -1)
 				cout << "ID가 잘못되었습니다. " << endl;
 			else
 				cout << "입금완료" << endl;
 
 			break;
-		case 3:
+		case WITHDRAW:
 			if (RunWithDraw(GetWithDrawInfo()) == -1)
 				cout << "ID가 잘못되었거나, 잔액이 부족합니다. " << endl;
 			else
 				cout << "출금완료" << endl;
 			break;
-		case 4:
+		case INQUIRE:
 			PrintAccount();
 			break;
-		case 5:
+		case EXIT:
 			cout << "프로그램을 종료합니다." << endl;
 			break;
 		default: cout << "입력이 잘못되었습니다" << endl;

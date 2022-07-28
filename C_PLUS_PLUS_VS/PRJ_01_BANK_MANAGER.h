@@ -21,6 +21,7 @@ int RunDeposit(Bank);
 int RunWithDraw(Bank);
 Bank GetWithDrawInfo();
 
+enum { MAKE = 1, DEPOSIT, WITHDRAW, INQUIRE, EXIT };
 #endif // !BACN_HEADER
 
 

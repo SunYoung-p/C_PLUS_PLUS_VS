@@ -13,43 +13,64 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Project">
+      <UniqueIdentifier>{883ba46d-6966-4e91-9bde-3b335a10ebfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOOK_PART_01">
+      <UniqueIdentifier>{4d71cf7e-261a-42f2-972b-53d56628bd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BACKJUN">
+      <UniqueIdentifier>{906cf6c1-78e8-4be8-ba2e-064bb4252648}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="source01.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Game01.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="BackJun_01.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
     <ClCompile Include="BackJun_02.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
     <ClCompile Include="BackJun_03.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Namespace.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="BANK_01.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Malloc.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FinalProblem_C_01.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
     <ClCompile Include="BackJun_04.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BackJun_05.cpp">
+      <Filter>소스 파일\BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BANK_01.cpp">
+      <Filter>소스 파일\Project</Filter>
     </ClCompile>
     <ClCompile Include="PhoneManager.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP_Header_Exam.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalProblem_C_01.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="Game01.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="Malloc.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="Namespace.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="RefVal_Exam_01.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="RefVal_Exma_02.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="source01.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
