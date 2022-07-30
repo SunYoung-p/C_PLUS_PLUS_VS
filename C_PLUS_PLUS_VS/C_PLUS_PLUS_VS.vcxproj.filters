@@ -75,6 +75,9 @@
     <ClCompile Include="BACKJUN\BackJun_06.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_01\Struct_Class.cpp">
+      <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">

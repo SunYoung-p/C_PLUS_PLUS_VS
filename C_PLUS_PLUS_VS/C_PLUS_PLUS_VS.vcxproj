@@ -124,6 +124,7 @@
     <ClCompile Include="BOOK_PART_01\RefVal_Exam_01.cpp" />
     <ClCompile Include="BOOK_PART_01\RefVal_Exma_02.cpp" />
     <ClCompile Include="BOOK_PART_01\source01.cpp" />
+    <ClCompile Include="BOOK_PART_01\Struct_Class.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PROJECT\BANK_01.cpp" />
     <ClCompile Include="PROJECT\PhoneManager.cpp" />
