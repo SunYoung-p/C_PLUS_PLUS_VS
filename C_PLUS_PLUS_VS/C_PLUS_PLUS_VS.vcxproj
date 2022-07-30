@@ -110,10 +110,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BACKJUN\BackJun_01.cpp" />
     <ClCompile Include="BACKJUN\BackJun_02.cpp" />
     <ClCompile Include="BACKJUN\BackJun_03.cpp" />
     <ClCompile Include="BACKJUN\BackJun_04.cpp" />
     <ClCompile Include="BACKJUN\BackJun_05.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_06.cpp" />
     <ClCompile Include="BOOK_PART_01\CPP_Header_Exam.cpp" />
     <ClCompile Include="BOOK_PART_01\FinalProblem_C_01.cpp" />
     <ClCompile Include="BOOK_PART_01\Game01.cpp" />
@@ -125,7 +127,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PROJECT\BANK_01.cpp" />
     <ClCompile Include="PROJECT\PhoneManager.cpp" />
-    <ClCompile Include="새 폴더\BackJun_01.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PRJ_01_BANK_MANAGER.h" />

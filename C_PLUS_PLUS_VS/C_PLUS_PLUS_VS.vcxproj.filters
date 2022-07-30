@@ -27,9 +27,6 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="새 폴더\BackJun_01.cpp">
-      <Filter>소스 파일\BACKJUN</Filter>
-    </ClCompile>
     <ClCompile Include="BACKJUN\BackJun_03.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
@@ -71,6 +68,12 @@
     </ClCompile>
     <ClCompile Include="BOOK_PART_01\Namespace.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_01.cpp">
+      <Filter>소스 파일\BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_06.cpp">
+      <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
