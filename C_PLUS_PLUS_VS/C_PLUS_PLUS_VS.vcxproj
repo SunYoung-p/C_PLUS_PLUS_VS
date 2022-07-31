@@ -125,11 +125,15 @@
     <ClCompile Include="BOOK_PART_01\RefVal_Exma_02.cpp" />
     <ClCompile Include="BOOK_PART_01\source01.cpp" />
     <ClCompile Include="BOOK_PART_01\Struct_Class.cpp" />
+    <ClCompile Include="BOOK_PART_02\Calculator.cpp" />
+    <ClCompile Include="BOOK_PART_02\Printer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PROJECT\BANK_01.cpp" />
     <ClCompile Include="PROJECT\PhoneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BOOK_PART_02\Calculator.h" />
+    <ClInclude Include="BOOK_PART_02\Printer.h" />
     <ClInclude Include="PRJ_01_BANK_MANAGER.h" />
     <ClInclude Include="TestHeader.h" />
   </ItemGroup>

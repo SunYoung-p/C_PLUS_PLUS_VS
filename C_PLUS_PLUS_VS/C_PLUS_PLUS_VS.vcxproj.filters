@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\BACKJUN">
       <UniqueIdentifier>{906cf6c1-78e8-4be8-ba2e-064bb4252648}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BOOK_PART_02">
+      <UniqueIdentifier>{13ee961f-994c-4f25-940b-fe5b5beb5e91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -78,6 +81,12 @@
     <ClCompile Include="BOOK_PART_01\Struct_Class.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Calculator.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Printer.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
@@ -85,6 +94,12 @@
     </ClInclude>
     <ClInclude Include="PRJ_01_BANK_MANAGER.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Calculator.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Printer.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
