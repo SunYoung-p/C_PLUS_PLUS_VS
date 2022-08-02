@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int No7_0731()
+int No8_0731()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);

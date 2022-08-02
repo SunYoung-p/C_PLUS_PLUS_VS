@@ -90,6 +90,30 @@
     <ClCompile Include="BACKJUN\BackJun_07.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Exam_MsgPassing.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Point.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Rectangle.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\RectangleFaultFind.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Const_Error_Example.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\FruitSeller.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\FruiteBuyer.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\RunFruitBuyer.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
@@ -102,6 +126,18 @@
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClInclude>
     <ClInclude Include="BOOK_PART_02\Printer.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Point.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Rectangle.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\FruitBuyer.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\FruitSeller.h">
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClInclude>
   </ItemGroup>
