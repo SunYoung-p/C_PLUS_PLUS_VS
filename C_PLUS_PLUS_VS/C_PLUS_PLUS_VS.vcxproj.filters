@@ -114,6 +114,9 @@
     <ClCompile Include="BOOK_PART_02\RunFruitBuyer.cpp">
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_08.cpp">
+      <Filter>소스 파일\BACKJUN</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
