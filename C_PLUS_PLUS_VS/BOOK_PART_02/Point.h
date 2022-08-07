@@ -10,4 +10,5 @@ public:
 	int GetY() const;
 	bool SetX(int xpos);
 	bool SetY(int ypos);
+	void ShowPointInfo() const;
 };

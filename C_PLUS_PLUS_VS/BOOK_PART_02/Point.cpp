@@ -47,3 +47,8 @@ bool Point::SetY(int ypos)
 	y = ypos;
 	return true;
 }
+
+void Point::ShowPointInfo() const
+{
+	cout << "[" << GetX() << ", " << GetY() << "]" << endl;
+}

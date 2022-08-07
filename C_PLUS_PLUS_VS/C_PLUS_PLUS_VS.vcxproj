@@ -128,7 +128,10 @@
     <ClCompile Include="BOOK_PART_01\source01.cpp" />
     <ClCompile Include="BOOK_PART_01\Struct_Class.cpp" />
     <ClCompile Include="BOOK_PART_02\Calculator.cpp" />
+    <ClCompile Include="BOOK_PART_02\Circle.cpp" />
     <ClCompile Include="BOOK_PART_02\Const_Error_Example.cpp" />
+    <ClCompile Include="BOOK_PART_02\Encaps1.cpp" />
+    <ClCompile Include="BOOK_PART_02\Encaps2.cpp" />
     <ClCompile Include="BOOK_PART_02\Exam_MsgPassing.cpp" />
     <ClCompile Include="BOOK_PART_02\FruiteBuyer.cpp" />
     <ClCompile Include="BOOK_PART_02\FruitSeller.cpp" />
@@ -136,18 +139,22 @@
     <ClCompile Include="BOOK_PART_02\Printer.cpp" />
     <ClCompile Include="BOOK_PART_02\Rectangle.cpp" />
     <ClCompile Include="BOOK_PART_02\RectangleFaultFind.cpp" />
+    <ClCompile Include="BOOK_PART_02\Ring.cpp" />
     <ClCompile Include="BOOK_PART_02\RunFruitBuyer.cpp" />
+    <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PROJECT\BANK_01.cpp" />
     <ClCompile Include="PROJECT\PhoneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BOOK_PART_02\Calculator.h" />
+    <ClInclude Include="BOOK_PART_02\Circle.h" />
     <ClInclude Include="BOOK_PART_02\FruitBuyer.h" />
     <ClInclude Include="BOOK_PART_02\FruitSeller.h" />
     <ClInclude Include="BOOK_PART_02\Point.h" />
     <ClInclude Include="BOOK_PART_02\Printer.h" />
     <ClInclude Include="BOOK_PART_02\Rectangle.h" />
+    <ClInclude Include="BOOK_PART_02\Ring.h" />
     <ClInclude Include="PRJ_01_BANK_MANAGER.h" />
     <ClInclude Include="TestHeader.h" />
   </ItemGroup>

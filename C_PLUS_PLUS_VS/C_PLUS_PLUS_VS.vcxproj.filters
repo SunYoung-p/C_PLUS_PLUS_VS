@@ -117,6 +117,21 @@
     <ClCompile Include="BACKJUN\BackJun_08.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Encaps1.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Encaps2.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Ring.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Circle.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
@@ -141,6 +156,12 @@
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClInclude>
     <ClInclude Include="BOOK_PART_02\FruitSeller.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Ring.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Circle.h">
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClInclude>
   </ItemGroup>
