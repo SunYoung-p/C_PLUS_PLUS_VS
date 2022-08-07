@@ -7,6 +7,7 @@ private:
 	Point p1;
 	int radius;
 public:
+	Circle(Point p, int r);
 	bool Init(Point p, int r);
 	void ShowCircleInfo();
 	int GetRadius() const;

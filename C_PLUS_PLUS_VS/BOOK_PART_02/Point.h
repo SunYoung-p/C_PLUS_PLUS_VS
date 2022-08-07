@@ -5,6 +5,7 @@ private:
 	int x;
 	int y;
 public:
+	Point(const int &xpos, const int &ypos);
 	bool InitMembers(int xpos, int ypos);
 	int GetX() const;
 	int GetY() const;

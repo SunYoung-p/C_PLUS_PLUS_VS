@@ -132,6 +132,24 @@
     <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp">
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Constructor1.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Constructor2.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\ReferenceMeber.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\PrivateConstructor.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Destructor.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\NameCard.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
@@ -162,6 +180,9 @@
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClInclude>
     <ClInclude Include="BOOK_PART_02\Circle.h">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\NameCard.h">
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClInclude>
   </ItemGroup>

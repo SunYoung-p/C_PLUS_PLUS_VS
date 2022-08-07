@@ -2,6 +2,12 @@
 #include "FruitSeller.h"
 
 using namespace std;
+/*
+FruitSeller::FruitSeller(int n) : APPLE_PRICE_2(n) // 멤버 이니셜라이저로 const 상수 초기화
+{
+
+}
+*/
 
 bool FruitSeller::InitSeller(int money, int numFruit, int price)
 {

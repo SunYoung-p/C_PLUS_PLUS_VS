@@ -7,6 +7,7 @@ private:
 	Circle circle2;
 
 public:
+	Ring(int, int, int, int, int, int);
 	bool Init(int, int, int, int, int, int);
 	void ShowRingInfo();
 	Circle GetCircle1() const;

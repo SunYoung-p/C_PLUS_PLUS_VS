@@ -5,10 +5,16 @@
 
 using namespace std;
 
+Ring::Ring(int x1, int y1, int r1, int x2, int y2, int r2)
+	: circle1(Point(x1, y1), r1), circle2(Point(x2, y2), r2)
+{
+}
+
+
 bool Ring::Init(int x1, int y1, int r1, int x2, int y2, int r2)
 {
-	Point p1, p2;
-
+	Point p1(x1, y1), p2(x2, y2);
+	
 	if (p1.InitMembers(x1, y1) == false)
 	{
 		cout << "값이 잘못되었습니다. p1 초기화 실패" << endl;

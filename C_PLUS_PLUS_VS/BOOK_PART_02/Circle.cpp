@@ -4,6 +4,11 @@
 
 using namespace std;
 
+Circle::Circle(Point p, int r) : p1(p), radius(r)
+{
+
+}
+
 bool Circle::Init(Point p, int r)
 {
 	p1 = p;

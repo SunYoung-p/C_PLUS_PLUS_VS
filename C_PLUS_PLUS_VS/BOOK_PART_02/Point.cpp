@@ -3,6 +3,13 @@
 
 using namespace std;
 
+
+Point::Point(const int &xpos, const int &ypos)
+{
+	x = xpos;
+	y = ypos;
+}
+
 bool Point::InitMembers(int xpos, int ypos)
 {
 	if (xpos < 0 || ypos < 0)
