@@ -139,6 +139,7 @@
     <ClCompile Include="BOOK_PART_02\FruiteBuyer.cpp" />
     <ClCompile Include="BOOK_PART_02\FruitSeller.cpp" />
     <ClCompile Include="BOOK_PART_02\NameCard.cpp" />
+    <ClCompile Include="BOOK_PART_02\NameCardManager.cpp" />
     <ClCompile Include="BOOK_PART_02\Point.cpp" />
     <ClCompile Include="BOOK_PART_02\Printer.cpp" />
     <ClCompile Include="BOOK_PART_02\PrivateConstructor.cpp" />
