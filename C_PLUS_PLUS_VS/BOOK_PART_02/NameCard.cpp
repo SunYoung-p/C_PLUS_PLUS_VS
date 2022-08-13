@@ -37,6 +37,8 @@ NameCard::~NameCard()
 	delete[] name;
 	delete[] company;
 	delete[] phone;
+
+	cout << "소멸자 실행 완료" << endl;
 }
 
 void NameCard::ShowNameCardInfo()

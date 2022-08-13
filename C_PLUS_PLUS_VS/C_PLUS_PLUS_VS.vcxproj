@@ -75,6 +75,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -140,6 +143,7 @@
     <ClCompile Include="BOOK_PART_02\FruitSeller.cpp" />
     <ClCompile Include="BOOK_PART_02\NameCard.cpp" />
     <ClCompile Include="BOOK_PART_02\NameCardManager.cpp" />
+    <ClCompile Include="BOOK_PART_02\ObjArr.cpp" />
     <ClCompile Include="BOOK_PART_02\Point.cpp" />
     <ClCompile Include="BOOK_PART_02\Printer.cpp" />
     <ClCompile Include="BOOK_PART_02\PrivateConstructor.cpp" />
