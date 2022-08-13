@@ -155,6 +155,9 @@
     <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PROJECT\BANK_01.cpp" />
+    <ClCompile Include="PROJECT\CoffeeBuyer.cpp" />
+    <ClCompile Include="PROJECT\CoffeeManager.cpp" />
+    <ClCompile Include="PROJECT\CoffeeSeller.cpp" />
     <ClCompile Include="PROJECT\PhoneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -168,6 +171,8 @@
     <ClInclude Include="BOOK_PART_02\Rectangle.h" />
     <ClInclude Include="BOOK_PART_02\Ring.h" />
     <ClInclude Include="PRJ_01_BANK_MANAGER.h" />
+    <ClInclude Include="PROJECT\CoffeeBuyer.h" />
+    <ClInclude Include="PROJECT\CoffeeSeller.h" />
     <ClInclude Include="TestHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

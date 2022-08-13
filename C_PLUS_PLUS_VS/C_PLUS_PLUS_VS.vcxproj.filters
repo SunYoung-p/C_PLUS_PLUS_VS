@@ -156,6 +156,15 @@
     <ClCompile Include="BOOK_PART_02\ObjArr.cpp">
       <Filter>소스 파일\BOOK_PART_02</Filter>
     </ClCompile>
+    <ClCompile Include="PROJECT\CoffeeBuyer.cpp">
+      <Filter>소스 파일\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\CoffeeSeller.cpp">
+      <Filter>소스 파일\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\CoffeeManager.cpp">
+      <Filter>소스 파일\Project</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
@@ -190,6 +199,12 @@
     </ClInclude>
     <ClInclude Include="BOOK_PART_02\NameCard.h">
       <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\CoffeeBuyer.h">
+      <Filter>소스 파일\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\CoffeeSeller.h">
+      <Filter>소스 파일\Project</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
