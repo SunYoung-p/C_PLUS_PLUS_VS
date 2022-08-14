@@ -165,6 +165,9 @@
     <ClCompile Include="PROJECT\CoffeeManager.cpp">
       <Filter>소스 파일\Project</Filter>
     </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_09.cpp">
+      <Filter>소스 파일\BACKJUN</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
