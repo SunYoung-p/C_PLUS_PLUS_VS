@@ -168,6 +168,9 @@
     <ClCompile Include="BACKJUN\BackJun_09.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_10.cpp">
+      <Filter>소스 파일\BACKJUN</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">

@@ -122,6 +122,7 @@
     <ClCompile Include="BACKJUN\BackJun_07.cpp" />
     <ClCompile Include="BACKJUN\BackJun_08.cpp" />
     <ClCompile Include="BACKJUN\BackJun_09.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_10.cpp" />
     <ClCompile Include="BOOK_PART_01\CPP_Header_Exam.cpp" />
     <ClCompile Include="BOOK_PART_01\FinalProblem_C_01.cpp" />
     <ClCompile Include="BOOK_PART_01\Game01.cpp" />
