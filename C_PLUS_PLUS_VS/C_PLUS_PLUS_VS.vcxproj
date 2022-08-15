@@ -132,6 +132,7 @@
     <ClCompile Include="BOOK_PART_01\RefVal_Exma_02.cpp" />
     <ClCompile Include="BOOK_PART_01\source01.cpp" />
     <ClCompile Include="BOOK_PART_01\Struct_Class.cpp" />
+    <ClCompile Include="BOOK_PART_02\0815_ThisPointer.cpp" />
     <ClCompile Include="BOOK_PART_02\Calculator.cpp" />
     <ClCompile Include="BOOK_PART_02\Circle.cpp" />
     <ClCompile Include="BOOK_PART_02\Constructor1.cpp" />
@@ -156,7 +157,7 @@
     <ClCompile Include="BOOK_PART_02\RunFruitBuyer.cpp" />
     <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="PROJECT\BANK_01.cpp" />
+    <ClCompile Include="PROJECT\BOOK_OOP_PRJ_01.cpp" />
     <ClCompile Include="PROJECT\CoffeeBuyer.cpp" />
     <ClCompile Include="PROJECT\CoffeeManager.cpp" />
     <ClCompile Include="PROJECT\CoffeeSeller.cpp" />
@@ -172,7 +173,7 @@
     <ClInclude Include="BOOK_PART_02\Printer.h" />
     <ClInclude Include="BOOK_PART_02\Rectangle.h" />
     <ClInclude Include="BOOK_PART_02\Ring.h" />
-    <ClInclude Include="PRJ_01_BANK_MANAGER.h" />
+    <ClInclude Include="PROJECT\BOOK_OOP_PRJ_01.h" />
     <ClInclude Include="PROJECT\CoffeeBuyer.h" />
     <ClInclude Include="PROJECT\CoffeeSeller.h" />
     <ClInclude Include="TestHeader.h" />

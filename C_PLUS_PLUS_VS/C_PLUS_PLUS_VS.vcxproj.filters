@@ -45,9 +45,6 @@
     <ClCompile Include="PROJECT\PhoneManager.cpp">
       <Filter>소스 파일\Project</Filter>
     </ClCompile>
-    <ClCompile Include="PROJECT\BANK_01.cpp">
-      <Filter>소스 파일\Project</Filter>
-    </ClCompile>
     <ClCompile Include="BOOK_PART_01\RefVal_Exam_01.cpp">
       <Filter>소스 파일\BOOK_PART_01</Filter>
     </ClCompile>
@@ -171,12 +168,15 @@
     <ClCompile Include="BACKJUN\BackJun_10.cpp">
       <Filter>소스 파일\BACKJUN</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\0815_ThisPointer.cpp">
+      <Filter>소스 파일\BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\BOOK_OOP_PRJ_01.cpp">
+      <Filter>소스 파일\Project</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestHeader.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="PRJ_01_BANK_MANAGER.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="BOOK_PART_02\Calculator.h">
@@ -210,6 +210,9 @@
       <Filter>소스 파일\Project</Filter>
     </ClInclude>
     <ClInclude Include="PROJECT\CoffeeSeller.h">
+      <Filter>소스 파일\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\BOOK_OOP_PRJ_01.h">
       <Filter>소스 파일\Project</Filter>
     </ClInclude>
   </ItemGroup>

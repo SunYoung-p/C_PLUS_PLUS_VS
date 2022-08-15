@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../PRJ_01_BANK_MANAGER.h"
+#include "BOOK_OOP_PRJ_01.h"
 
 using namespace std;
 
@@ -10,6 +10,9 @@ int BANK_CNT;
 int RunBankManager()
 {
 	int n = 0;
+	Account * Info[ACCOUNT_CNT];
+
+	
 
 	while (n != 5)
 	{
@@ -20,8 +23,8 @@ int RunBankManager()
 		switch (n)
 		{
 		case MAKE:
-			BANK_INFO[BANK_CNT] = MakeAccount();
-			BANK_CNT++;
+			if(MakeAccount(Info) == false)
+				cout << "RunBankManager::계좌 생성 실패" << endl;
 			break;
 		case DEPOSIT:
 			if (RunDeposit(GetDepositInfo()) == -1)
@@ -45,9 +48,12 @@ int RunBankManager()
 		default: cout << "입력이 잘못되었습니다" << endl;
 			break;
 		}
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
 		cout << endl;
 	}
 
+	
 	return 0;
 }
 
@@ -75,21 +81,48 @@ void PrintAccount()
 	}
 }
 
-Bank MakeAccount()
+bool MakeAccount(Account(&info)[])
 {
-	Bank n;
+	int id = 0, InfoCnt=0;
+	char name[100] = { 0 };
+	int money = 0;
 
 	cout << "[계좌개설]" << endl;
 	cout << "계좌ID: ";
-	cin >> n.id;
+	cin >> id;
+
+	cin.clear();
+	cin.ignore(INT_MAX, '\n');
+
+	for (int i = 0; i < ACCOUNT_CNT; i++)
+	{
+		if (info[i].GetIsMake == false)
+		{
+			InfoCnt = i - 1;
+			break;
+		}
+
+		if (info[i].GetID == id)
+		{
+			cout << "MakeAccount::ID 중복 에러" << endl;
+			return false;
+		}
+	}
 
 	cout << "이 름: ";
-	cin >> n.name;
+	cin >> name;
 
 	cout << "입금액: ";
-	cin >> n.money;
+	cin >> money;
 
-	return n;
+	if (money < 0)
+	{
+		cout << "MakeAccount::입금액이 0보다 작습니다" << endl;
+		return false;
+	}
+
+	
+	return true;
 }
 
 
@@ -152,4 +185,29 @@ int RunWithDraw(Bank n)
 	}
 
 	return -1;
+}
+
+
+bool Account::Deposit(int money)
+{
+	if (money < 0)
+	{
+		cout << "Accout::Deposit : 입금액이 잘못되었습니다" << endl;
+		return false;
+	}
+
+	this->money += money;
+	return true;
+}
+
+bool Account::WithDraw(int money)
+{
+	if (GetMoney() < money)
+	{
+		cout << "Accout::WithDraw : 계좌 잔액보다 출금 요청 금액이 더 큽니다" << endl;
+		return false;
+	}
+
+	this->money -= money;
+	return true;
 }
