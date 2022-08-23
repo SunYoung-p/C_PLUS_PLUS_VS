@@ -10,12 +10,30 @@ Bank Manager 프로그램
 
 #pragma once
 
+/* 클래스 선언 */
 class Account
 {
 private:
-	
+	char* myID;
+	char* myName;
+	int myMoney;
+
 public:
-	
+	Account(char *id, char *name, int money);
+	~Account();
 };
 
+/* 함수 선언 */
+int RunBankManager();
+void MakeAccount();
+void PrintMenu();
 
+/* enum 상수 */
+enum KEY
+{
+	MAKE =1 ,
+	DEPOSIT,
+	WITHDRAW,
+	SHOWINFO,
+	EXIT
+};

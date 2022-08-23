@@ -5,14 +5,38 @@ using namespace std;
 
 int main()
 {
-	for (int i = 1; i <= 9; i++)
+	bool exit = false;
+	int sel = 0;
+
+	while (exit == false)
 	{
-		for (int j = 1; j <= 9; j++)
+		PrintMenu();
+		cin >> sel;
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
+
+		switch (sel)
 		{
-			cout << i << " * " << j << " = " << i*j << endl;
+		case MAKE:
+			MakeAccount();
+			break;
+		case DEPOSIT:
+			break;
+		case WITHDRAW:
+			break;
+		case SHOWINFO:
+			break;
+		case EXIT:
+			exit = true;
+			break;
+		default:
+			cout << "잘못된 값 입력 \n";
+			break;
 		}
 
-		cout << endl;
+
+		cout << "\n\n";
+
 	}
 
 	return 0;
