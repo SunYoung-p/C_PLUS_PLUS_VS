@@ -21,12 +21,27 @@ private:
 public:
 	Account(char *id, char *name, int money);
 	~Account();
+	char* GetID() { return myID; }
+	char* GetName() { return myName; }
+	int GetMoney() { return myMoney; }
+	void PlusMoney(int money) { myMoney += money; }
+	void MinusMoney(int money)
+	{ 
+		if(myMoney-money >=0) 
+			myMoney -= money; 
+	}
+	void ShowInfo();
 };
 
 /* 함수 선언 */
 int RunBankManager();
 void MakeAccount();
 void PrintMenu();
+void WithDrawMoney();
+void DepositMoney();
+void PrintAccount();
+void ExitBank();
+int GetIdxBank(char *);
 
 /* enum 상수 */
 enum KEY
@@ -37,3 +52,6 @@ enum KEY
 	SHOWINFO,
 	EXIT
 };
+
+/* 기타 상수 */
+#define ACCOUNT_CNT 100

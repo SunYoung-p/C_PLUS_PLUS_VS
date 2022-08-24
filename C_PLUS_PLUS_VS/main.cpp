@@ -21,12 +21,16 @@ int main()
 			MakeAccount();
 			break;
 		case DEPOSIT:
+			DepositMoney();
 			break;
 		case WITHDRAW:
+			WithDrawMoney();
 			break;
 		case SHOWINFO:
+			PrintAccount();
 			break;
 		case EXIT:
+			ExitBank();
 			exit = true;
 			break;
 		default:
