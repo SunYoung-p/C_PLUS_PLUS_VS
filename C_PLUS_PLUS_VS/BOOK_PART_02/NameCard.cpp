@@ -22,14 +22,32 @@ NameCard::NameCard(char* name_, char* com_, char* phone_, int rank_)
 	strcpy_s(phone, len+1, phone_);
 	phone[len] = '\0';
 
-	if (rank_ < Rank::CLERK || rank_ > Rank::MANAGER)
+	if (rank_ < RANK_POS::CLERK || rank_ > RANK_POS::MANAGER)
 	{
 		cout << "rank 초기화 실패" << endl;
-		rank = Rank::CLERK;
+		rank = RANK_POS::CLERK;
 		return;
 	}
 
 	rank = rank_;
+}
+
+NameCard::NameCard(NameCard &copy) 
+	: rank(copy.rank)
+{
+	int len = 0;
+
+	len = strlen(copy.name)+1;
+	name = new char[len];
+	strcpy_s(name, len, copy.name);
+
+	len = strlen(copy.company) +1;
+	company = new char[len];
+	strcpy_s(company, len, copy.company);
+
+	len = strlen(copy.phone) +1;
+	phone = new char[len];
+	strcpy_s(phone, len, copy.phone);
 }
 
 NameCard::~NameCard()
